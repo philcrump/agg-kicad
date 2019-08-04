@@ -1,0 +1,12 @@
+datasheet: http://www.ti.com/lit/ds/symlink/tps799.pdf
+description: 3V 200mA Ultralow Noise LDO Linear Voltage Regulator
+footprint: agg:SOT-23-5
+name: TPS79930
+ordercodes:
+- [Farnell, '1135402']
+pins:
+- - - [VIN, 1, pwrin]
+    - [EN, 3, in]
+    - [GND, 2, pwrin]
+- - - [VOUT, 5, pwrout]
+    - [NR, 4, in]

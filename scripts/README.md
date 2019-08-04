@@ -96,7 +96,7 @@ schematic symbols in all the individual `.lib` files.
 Run with `--verify` as the final argument to instead verify that the existing 
 compiled library is up-to-date.
 
-`python3 compilelib.py ../lib ../agg-kicad.lib`
+`python3 compile_lib.py ../lib ../agg-kicad.lib`
 
 ### compile_pro.py
 

@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP TPS79930
+D 3V 200mA Ultralow Noise LDO Linear Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/tps799.pdf
+$ENDCMP
