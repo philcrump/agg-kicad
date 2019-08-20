@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP RT5047A
+D RT5047A LNB Voltage Regulator
+F https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf
+$ENDCMP

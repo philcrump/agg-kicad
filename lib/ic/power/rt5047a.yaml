@@ -1,0 +1,16 @@
+datasheet: https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf
+description: RT5047A LNB Voltage Regulator
+footprint: agg:SOIC-8-EP
+name: RT5047A
+ordercodes:
+  - [Farnell, '2545957']
+pins:
+- - - [LNB, 1, pwrout]
+    - [BOOST, 2, passive]
+    - [LX, 3, passive]
+    - [VIN, 4, in]
+    - [GND, EP, pwrin]
+- - - [EN, 8, in]
+    - [SEL, 7, in]
+    - [FAULT, 6, out]
+    - [TONE, 5, in]
