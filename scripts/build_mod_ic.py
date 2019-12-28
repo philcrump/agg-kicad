@@ -312,6 +312,28 @@ config = {
         },
     },
 
+    # TSSOP-20 from JEDEC MO-153AC with EP per LT3751
+    # IPC-7351B: SOP65P640X120-21N
+    "TSSOP-20-EP": {
+        "rows": 2,
+        "pins": 20,
+        "pin_pitch": 0.65,
+        "row_pitch": 5.75,
+        "pad_shape": (1.35, 0.45),
+        "chip_shape": (4.5, 6.6),
+        "pin_shape": (0.95, .30),
+        "ep_shape": (2.74, 3.86),
+        "ep_paste_shape": (2.2, 1.5, 0.0, 0.5),
+        "ep_mask_shape": (2.2, 1.5, 0.0, 0.5),
+        "ep_vias": (0.4, 0.6, 0.5),
+        "model": {
+            "path": "${KISYS3DMOD}/Housings_SSOP.3dshapes/TSSOP-20_4.4x6.5mm_Pitch0.65mm.wrl",
+            "offset": (0, 0, 0),
+            "scale": (1, 1, 1),
+            "rotate": (0, 0, 0),
+        },
+    },
+
     # TSSOP-24 from JEDEC MO-153
     # IPC-7351B: SOP65P640X120-24N
     "TSSOP-24": {
@@ -991,6 +1013,19 @@ config = {
         "pin_shape": (-0.5, 0.3),
     },
 
+    # LFCSP-16, AD specific CP-16-17
+    "LFCSP-16-AD": {
+        "rows": 4,
+        "pins": 16,
+        "pin_pitch": 0.65,
+        "row_pitch": 3.70,
+        "pad_shape": (0.50, 0.35),
+        "ep_shape": (2.6, 2.6),
+        "ep_paste_shape": (1, 1, 0.2, 0.2),
+        "chip_shape": (4, 4),
+        "pin_shape": (-0.4, 0.3),
+    },
+
     # MS5611 sensor
     "MS5611": {
         "rows": 2,
@@ -1479,6 +1514,17 @@ config = {
         "pad_shape": (.559, .406),
         "chip_shape": (1.90, 3.05),
         "pin_shape": (-0.35, 0.30),
+    },
+
+    # Coilcraft GA3459-BL
+    "GA3459-BL": {
+        "rows": 2,
+        "pins": 12,
+        "pin_pitch": 4.0,
+        "row_pitch": 30.95,
+        "pad_shape": (2.75, 2.0),
+        "chip_shape": (26, 26.75),
+        "pin_shape": (3.3, 1.09),
     },
 }
 
