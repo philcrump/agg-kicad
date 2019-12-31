@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP AD8692ARMZ
+D 6V Dual Low Cost, Low Noise, CMOS, Rail-to-Rail Operational Amplifiers
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf
+$ENDCMP

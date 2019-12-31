@@ -1,0 +1,16 @@
+datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/AD8397.pdf
+description: 24V Dual Rail-to-Rail High Output Current Operational Amplifiers
+footprint: agg:SOIC-8
+name: AD8397ARZ
+ordercodes:
+  - [Mouser, '584-AD8397ARZ']
+pins:
+- - - [+VS, 8, pwrin]
+    - [-VS, 4, pwrin]
+  - - [-INA, 2, in]
+    - [+INA, 3, in]
+  - - [-INB, 6, in]
+    - [+INB, 5, in]
+- - - [OUTA, 1, out]
+  - - [OUTB, 7, out]
+  
