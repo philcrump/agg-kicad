@@ -1,0 +1,10 @@
+name: NCV8450A
+description: Self Protected High Side Driver with Temperature Shutdown and Current Limit
+footprint: Package_TO_SOT_SMD:SOT-223-3_TabPin2
+datasheet: https://www.onsemi.com/pub/Collateral/NCV8450-D.PDF
+ordercodes:
+  - [Mouser, '863-NCV8450ASTT3G']
+pins:
+- - - [VD, 2, pwrin]
+    - [IN, 1, in]
+- - - [OUT, 3, pwrout]
