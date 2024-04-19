@@ -135,7 +135,7 @@ def top_smd_ctyd(pins):
 def top_smd_model(pins):
     return [
         model(
-            "${KISYS3DMOD}/Connector_Molex.3dshapes/" +
+            "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/" +
             "Molex_PicoBlade_53398-{:02d}71_1x{:02d}".format(pins, pins) +
             "-1MP_P1.25mm_Vertical.step",
             (0, -1.3/25.4, 0),
@@ -147,6 +147,7 @@ def top_smd_fp(pins):
     name = "MOLEX-PICOBLADE-53398-{:02d}71".format(pins)
     tedit = format(int(time.time()), 'X')
     sexp = ["module", name, ("layer", "F.Cu"), ("tedit", tedit)]
+    sexp += [["attr", "smd"]]
     sexp += top_smd_refs(name)
     sexp += top_smd_silk(pins)
     sexp += top_smd_fab(pins)

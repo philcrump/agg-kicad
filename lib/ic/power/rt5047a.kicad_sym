@@ -1,0 +1,159 @@
+
+(kicad_symbol_lib
+  (version 20211014)
+  (generator agg_kicad.build_lib_ic)
+  (symbol "RT5047A"
+    (pin_names
+      (offset 1.0160))
+    (in_bom yes)
+    (on_board yes)
+    (property Reference IC
+      (id 0)
+      (at -7.6200 7.6200 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Value "RT5047A"
+      (id 1)
+      (at -7.6200 -7.6200 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Footprint "agg:SOIC-8-EP"
+      (id 2)
+      (at -7.6200 -10.1600 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Datasheet "https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf"
+      (id 3)
+      (at -7.6200 -12.7000 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Farnell "2545957"
+      (id 4)
+      (at -7.6200 -15.2400 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property ki_description "RT5047A LNB Voltage Regulator"
+      (id 6)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.2700 1.2700)) hide))
+    (symbol "RT5047A_0_0"
+      (rectangle
+        (start -7.6200 6.3500)
+        (end 7.6200 -6.3500)
+        (stroke
+          (width 0)
+          (type default)
+          (color 0 0 0 0))
+        (fill
+          (type background)))
+      (pin power_out line
+        (at -10.1600 5.0800 0)
+        (length 2.5400)
+        (name LNB
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "1"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin passive line
+        (at -10.1600 2.5400 0)
+        (length 2.5400)
+        (name BOOST
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "2"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin passive line
+        (at -10.1600 0.0000 0)
+        (length 2.5400)
+        (name LX
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "3"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -10.1600 -2.5400 0)
+        (length 2.5400)
+        (name VIN
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "4"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -10.1600 -5.0800 0)
+        (length 2.5400)
+        (name GND
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number EP
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 10.1600 5.0800 180)
+        (length 2.5400)
+        (name EN
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "5"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 10.1600 2.5400 180)
+        (length 2.5400)
+        (name SEL
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "6"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 10.1600 0.0000 180)
+        (length 2.5400)
+        (name FAULT
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "7"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 10.1600 -2.5400 180)
+        (length 2.5400)
+        (name TONE
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "8"
+          (effects
+            (font
+              (size 1.2700 1.2700))))))))

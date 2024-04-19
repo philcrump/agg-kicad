@@ -1,0 +1,588 @@
+
+(kicad_symbol_lib
+  (version 20211014)
+  (generator agg_kicad.build_lib_ic)
+  (symbol "AD2S1210"
+    (pin_names
+      (offset 1.0160))
+    (in_bom yes)
+    (on_board yes)
+    (property Reference IC
+      (id 0)
+      (at -12.7000 40.6400 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Value "AD2S1210"
+      (id 1)
+      (at -12.7000 -40.6400 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Footprint "agg:LQFP-48"
+      (id 2)
+      (at -12.7000 -43.1800 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/AD2S1210.pdf"
+      (id 3)
+      (at -12.7000 -45.7200 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Mouser "584-AD2S1210DSTZ"
+      (id 4)
+      (at -12.7000 -48.2600 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property ki_description "16-Bit Resolver-to-Digital Converter with Reference Oscillator"
+      (id 6)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.2700 1.2700)) hide))
+    (symbol "AD2S1210_0_0"
+      (rectangle
+        (start -12.7000 39.3700)
+        (end 12.7000 -39.3700)
+        (stroke
+          (width 0)
+          (type default)
+          (color 0 0 0 0))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -15.2400 38.1000 0)
+        (length 2.5400)
+        (name DVDD
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "6"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -15.2400 35.5600 0)
+        (length 2.5400)
+        (name AVDD
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "43"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -15.2400 33.0200 0)
+        (length 2.5400)
+        (name IOVDD
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "18"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -15.2400 27.9400 0)
+        (length 2.5400)
+        (name DGND
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "5"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -15.2400 25.4000 0)
+        (length 2.5400)
+        (name DGND
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "19"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -15.2400 22.8600 0)
+        (length 2.5400)
+        (name AGND
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "40"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 17.7800 0)
+        (length 2.5400)
+        (name "~SOE"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "9"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 15.2400 0)
+        (length 2.5400)
+        (name "~SAMPLE"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "10"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 10.1600 0)
+        (length 2.5400)
+        (name "~CS"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "2"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 7.6200 0)
+        (length 2.5400)
+        (name "~RD"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "3"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 5.0800 0)
+        (length 2.5400)
+        (name "~WR/FSYNC"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "4"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 0.0000 0)
+        (length 2.5400)
+        (name "DB0"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "28"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -2.5400 0)
+        (length 2.5400)
+        (name "DB1"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "27"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -5.0800 0)
+        (length 2.5400)
+        (name "DB2"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "26"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -7.6200 0)
+        (length 2.5400)
+        (name "DB3"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "25"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -10.1600 0)
+        (length 2.5400)
+        (name "DB4"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "24"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -12.7000 0)
+        (length 2.5400)
+        (name "DB5"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "23"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -15.2400 0)
+        (length 2.5400)
+        (name "DB6"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "22"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -17.7800 0)
+        (length 2.5400)
+        (name "DB7"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "21"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -20.3200 0)
+        (length 2.5400)
+        (name "DB8"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "20"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -22.8600 0)
+        (length 2.5400)
+        (name "DB9"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "17"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -25.4000 0)
+        (length 2.5400)
+        (name "DB10"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "16"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -27.9400 0)
+        (length 2.5400)
+        (name "DB11"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "15"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -30.4800 0)
+        (length 2.5400)
+        (name "DB12"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "14"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -33.0200 0)
+        (length 2.5400)
+        (name "DB13/SCLK"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "13"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -35.5600 0)
+        (length 2.5400)
+        (name "DB14/SDI"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "12"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -15.2400 -38.1000 0)
+        (length 2.5400)
+        (name "DB15/SDO"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "11"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 38.1000 180)
+        (length 2.5400)
+        (name EXC
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "38"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 33.0200 180)
+        (length 2.5400)
+        (name "~EXC"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "39"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 27.9400 180)
+        (length 2.5400)
+        (name SIN
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "41"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 25.4000 180)
+        (length 2.5400)
+        (name "~SIN"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "42"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 20.3200 180)
+        (length 2.5400)
+        (name COS
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "45"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 17.7800 180)
+        (length 2.5400)
+        (name "~COS"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "44"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 12.7000 180)
+        (length 2.5400)
+        (name REFOUT
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "47"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 10.1600 180)
+        (length 2.5400)
+        (name REFBYP
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "46"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 5.0800 180)
+        (length 2.5400)
+        (name INC_A
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "29"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 2.5400 180)
+        (length 2.5400)
+        (name INC_B
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "30"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 0.0000 180)
+        (length 2.5400)
+        (name INC_NM
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "31"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 -2.5400 180)
+        (length 2.5400)
+        (name INC_DIR
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "32"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -7.6200 180)
+        (length 2.5400)
+        (name "RES0"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "48"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -10.1600 180)
+        (length 2.5400)
+        (name "RES1"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "1"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -15.2400 180)
+        (length 2.5400)
+        (name "~RESET"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "33"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -20.3200 180)
+        (length 2.5400)
+        (name "A0"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "37"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -22.8600 180)
+        (length 2.5400)
+        (name "A1"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "36"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 -27.9400 180)
+        (length 2.5400)
+        (name "~LOT"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "34"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 -30.4800 180)
+        (length 2.5400)
+        (name "~DOS"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "35"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 15.2400 -35.5600 180)
+        (length 2.5400)
+        (name CLKIN
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "7"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 15.2400 -38.1000 180)
+        (length 2.5400)
+        (name XTALOUT
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "8"
+          (effects
+            (font
+              (size 1.2700 1.2700))))))))
