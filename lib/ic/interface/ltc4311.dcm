@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP LTC4311
+D I2C/SMBus Accelerator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4311fa.pdf
+$ENDCMP
