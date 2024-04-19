@@ -1,0 +1,16 @@
+datasheet: https://www.ti.com/lit/ds/symlink/drv8251a.pdf
+description: 50V 4.1-A Brushed DC Motor Driver
+footprint: agg:SOIC-8-EP
+name: DRV8251A
+ordercodes:
+- [Mouser, 595-DRV8251ADDAR]
+pins:
+- - - [IN1, 3, in]
+    - [IN2, 2, in]
+    - [VREF, 4, in]
+    - [IPROPI, 1, out]
+- - - [VM, 5, pwrin]
+    - [OUT1, 6, out]
+    - [OUT2, 8, out]
+    - [GND, 7, pwrin]
+    - [GND, EP, pwrin]

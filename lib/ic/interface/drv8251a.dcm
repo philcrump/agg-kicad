@@ -1,0 +1,5 @@
+EESchema-DOCLIB  Version 2.0
+$CMP DRV8251A
+D 50V 4.1-A Brushed DC Motor Driver
+F https://www.ti.com/lit/ds/symlink/drv8251a.pdf
+$ENDCMP
