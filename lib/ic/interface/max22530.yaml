@@ -1,0 +1,24 @@
+datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/max22530-max22532.pdf
+description: Self Powered 4-Channel 12-bit Isolated ADC
+footprint: agg:SOIC-16-W
+name: MAX22530
+ordercodes:
+  - [Mouser, '700-MAX22530AWE+']
+pins:
+- - - [VDDPL, 10, pwrin]
+    - [VDDL, 11, pwrin]
+  - - ["~{INT}", 16, out]
+  - - ["~{CS}", 15, in]
+    - [SCLK, 14, in]
+    - [SDI, 13, in]
+    - [SDO, 12, out]
+    - [GNDL, 9, pwrin]
+
+- - - [AIN1, 3, in]
+    - [AIN2, 4, in]
+    - [AIN3, 5, in]
+    - [AIN4, 6, in]
+    - [AGND, 2, pwrout]
+  - - [REF, 1, out]
+    - [VDDF, 7, out]
+    - [GNDF, 8, out]

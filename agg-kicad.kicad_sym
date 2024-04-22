@@ -1,7 +1,7 @@
 
 (kicad_symbol_lib
   (version 20211014)
-  (generator "agg-kicad-compiled-9b5732ee-dirty")
+  (generator "agg-kicad-compiled-80e5ef1e")
   (symbol "7499210124A"
     (pin_names
       (offset 1.0160))
@@ -54741,6 +54741,238 @@
             (font
               (size 1.2700 1.2700))))
         (number "6"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))))
+  (symbol "MAX22530"
+    (pin_names
+      (offset 1.0160))
+    (in_bom yes)
+    (on_board yes)
+    (property Reference IC
+      (id 0)
+      (at -10.1600 15.2400 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Value "MAX22530"
+      (id 1)
+      (at -10.1600 -15.2400 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left)))
+    (property Footprint "agg:SOIC-16-W"
+      (id 2)
+      (at -10.1600 -17.7800 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/max22530-max22532.pdf"
+      (id 3)
+      (at -10.1600 -20.3200 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property Mouser "700-MAX22530AWE+"
+      (id 4)
+      (at -10.1600 -22.8600 0)
+      (effects
+        (font
+          (size 1.2700 1.2700))
+        (justify left) hide))
+    (property ki_description "Self Powered 4-Channel 12-bit Isolated ADC"
+      (id 6)
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.2700 1.2700)) hide))
+    (symbol "MAX22530_0_0"
+      (rectangle
+        (start -10.1600 13.9700)
+        (end 10.1600 -13.9700)
+        (stroke
+          (width 0)
+          (type default)
+          (color 0 0 0 0))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -12.7000 12.7000 0)
+        (length 2.5400)
+        (name VDDPL
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "10"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -12.7000 10.1600 0)
+        (length 2.5400)
+        (name VDDL
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "11"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at -12.7000 5.0800 0)
+        (length 2.5400)
+        (name "~{INT}"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "16"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -12.7000 0.0000 0)
+        (length 2.5400)
+        (name "~{CS}"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "15"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -12.7000 -2.5400 0)
+        (length 2.5400)
+        (name SCLK
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "14"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at -12.7000 -5.0800 0)
+        (length 2.5400)
+        (name SDI
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "13"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at -12.7000 -7.6200 0)
+        (length 2.5400)
+        (name SDO
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "12"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_in line
+        (at -12.7000 -10.1600 0)
+        (length 2.5400)
+        (name GNDL
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "9"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 12.7000 12.7000 180)
+        (length 2.5400)
+        (name "AIN1"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "3"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 12.7000 10.1600 180)
+        (length 2.5400)
+        (name "AIN2"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "4"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 12.7000 7.6200 180)
+        (length 2.5400)
+        (name "AIN3"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "5"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin input line
+        (at 12.7000 5.0800 180)
+        (length 2.5400)
+        (name "AIN4"
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "6"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin power_out line
+        (at 12.7000 2.5400 180)
+        (length 2.5400)
+        (name AGND
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "2"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 12.7000 -2.5400 180)
+        (length 2.5400)
+        (name REF
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "1"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 12.7000 -5.0800 180)
+        (length 2.5400)
+        (name VDDF
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "7"
+          (effects
+            (font
+              (size 1.2700 1.2700)))))
+      (pin output line
+        (at 12.7000 -7.6200 180)
+        (length 2.5400)
+        (name GNDF
+          (effects
+            (font
+              (size 1.2700 1.2700))))
+        (number "8"
           (effects
             (font
               (size 1.2700 1.2700)))))))
