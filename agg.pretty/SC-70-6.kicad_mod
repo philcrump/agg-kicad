@@ -1,7 +1,7 @@
 
 (module "SC-70-6"
   (layer F.Cu)
-  (tedit "6608C72B")
+  (tedit "6626FC66")
   (attr smd)
   (fp_text reference REF**
     (at 0 -2.0250)
@@ -207,4 +207,4 @@
     (scale
       (xyz 1 1 1))
     (rotate
-      (xyz 0 0 90))))
+      (xyz 0 0 0))))

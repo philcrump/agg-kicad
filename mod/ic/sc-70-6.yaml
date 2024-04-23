@@ -6,7 +6,7 @@ description: |-
 model:
   offset: [0, 0, 0]
   path: ${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.step
-  rotate: [0, 0, 90]
+  rotate: [0, 0, 0]
   scale: [1, 1, 1]
 name: SC-70-6
 pad_shape: [0.95, 0.4]
