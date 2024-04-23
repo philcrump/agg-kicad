@@ -21,7 +21,7 @@
         (font
           (size 1.2700 1.2700))
         (justify left)))
-    (property Footprint "agg:SOT-323"
+    (property Footprint "agg:SC-70-6"
       (id 2)
       (at -7.6200 -7.6200 0)
       (effects

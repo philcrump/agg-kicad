@@ -1,7 +1,7 @@
 
 (kicad_symbol_lib
   (version 20211014)
-  (generator "agg-kicad-compiled-80e5ef1e")
+  (generator "agg-kicad-compiled-b7cc4737-dirty")
   (symbol "7499210124A"
     (pin_names
       (offset 1.0160))
@@ -54497,7 +54497,7 @@
         (font
           (size 1.2700 1.2700))
         (justify left)))
-    (property Footprint "agg:SOT-323"
+    (property Footprint "agg:SC-70-6"
       (id 2)
       (at -7.6200 -7.6200 0)
       (effects

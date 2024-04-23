@@ -1,6 +1,6 @@
 datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/4311fa.pdf
 description: I2C/SMBus Accelerator
-footprint: agg:SOT-323
+footprint: agg:SC-70-6
 name: LTC4311
 ordercodes:
 - [Mouser, 584-C4311CSC6TRMPBF]
